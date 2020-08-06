@@ -1,0 +1,12 @@
+2)
+	2.1) No final do cabeçalho da função há um ponto e vírgula, logo, o compilador entenderia essa linha como um 		     protótipo, e não como uma função.
+
+	2.2) Uma função do tipo void não pode retornar nenhum valor para a função que lhe chamou.
+
+	2.3) A declaração no protótipo da função e no cabeçalho da mesma estão diferentes.
+
+	2.4) O protótipo da função não consta seu tipo, logo, será atribuído um tipo int, entretanto, no cabeçalho 		     da função é especificado que ela será do tipo void.
+
+	2.5) A função não possui nome.
+
+	2.6) Não foi declarado o tipo da variável y, deveria ser escrito "(int x, int y)".
